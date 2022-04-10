@@ -257,5 +257,5 @@ You should be able to export the xls file like this.
 
 ## Acknowlegements
 
-This work was sponsored and supported by Prof. [Kai Zhang](https://sites.google.com/site/kaizhangstatmech/). [Eric Zhonghang Qu](https://ericqu.site) has gave me tremendous support in my initial set-up of the environment. [Kamlesh Bornani, PhD](https://scholar.google.com/citations?user=3r6c1D4AAAAJ&hl=en) kindly provided the TEM images and share many great insights to me.
+This work was sponsored and supported by Prof. [Kai Zhang](https://sites.google.com/site/kaizhangstatmech/). [Eric Zhonghang Qu](https://ericqu.site) has gave me tremendous support in my initial set-up of the environment. [Kamlesh Bornani, PhD](https://scholar.google.com/citations?user=3r6c1D4AAAAJ&hl=en) kindly provided the TEM images and shared many great insights to me.
 
