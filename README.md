@@ -1,9 +1,3 @@
----
-title: "Quantify_np"
-date: 2022-03-30T21:13:39+08:00
-draft: true
----
-
 # Quantifying nanoparticles through deep learning
 
 Modified on Eric's [code](https://github.com/yhzq/Quantifying-Nanoparticle-Assembly-States-Through-Deep-Learning) and README.
