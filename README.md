@@ -65,6 +65,10 @@ Usage: To cut images into smaller pieces. You can find the detailed steps in the
 
 #### Convert pre-trained Darknet weights (for COCO dataset)
 
+Make a temperoray directory first under `/training/yolov3_tf2/tmp/`.
+
+Under `training` folder
+
 ```bash
 wget https://pjreddie.com/media/files/yolov3.weights -O data/yolov3.weights
 python convert.py --weights ./data/yolov3.weights --output ./checkpoints/yolov3.tf
@@ -85,6 +89,8 @@ You may use `data_convert.py` to convert the images into tfrecords for training.
 
 Example: 
 
+Under `training` folder
+
 ```
 python data_convert.py --dataset ./label.txt
 ```
@@ -96,6 +102,8 @@ python data_convert.py --dataset ./label.txt
 The `train.py` takes some command line arguments and trains the model. Please see Command Line Args Reference for more information.
 
 Example: 
+
+Under `training` folder
 
 ```bash
 python train.py --classes ./data/particle.names --dataset ./data/particle_train.tfrecord --val_dataset ./data/particle_val.tfrecord --epochs 25 --learning_rate 1e-4 --num_classes 1 --transfer darknet --weights ./checkpoints/yolov3.tf --weights_num_classes 80
@@ -231,6 +239,8 @@ model_mAP.py:
 For simplicity, I use the 25th benchmark as the weights and modified it in the `detect1.py` file. 
 
 Example:
+
+Under `training` folder
 
 ```bash
 python detect1.py --cut_size 100 --image_type tif --image_directory /home/yl768/UVM_H/images/46k_105C/2/ --output_type boxes --output /home/yl768/UVM_H/output/46K/
