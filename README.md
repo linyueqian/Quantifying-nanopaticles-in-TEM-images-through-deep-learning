@@ -40,7 +40,15 @@ File: Cutting.ipynb
 
 Usage: To cut images into smaller pieces. You can find the detailed steps in the file.
 
-Note that data augmentation techniques (rotation, flip, brightness, random noise) are used so your total images should be approximately $$\mbox{Number of Images}\times (\mbox{Pixels}\div \mbox{Cut size})\times8$$. Also note that some cut section may does not include any images, so they are not generated.
+Note that data augmentation techniques (rotation, flip, brightness, random noise) are used so your total images should be approximately 
+
+$\mbox{Number of Images}\times (\mbox{Pixels}\div \mbox{Cut size})\times8$
+
+```html
+<img src="https://render.githubusercontent.com/render/math?math=\mbox{Number of Images}\times (\mbox{Pixels}\div \mbox{Cut size})\times8">
+```
+
+. Also note that some cut section may does not include any images, so they are not generated.
 
 ## Training
 
